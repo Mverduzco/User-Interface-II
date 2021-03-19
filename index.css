@@ -48,35 +48,17 @@ header {
     width: auto;
     font-size: 4em;
 }
-.intro {
-    display: flex;
-    flex-wrap: nowrap;
 
-}
 
-.intro .name .words{
-    font-size: 30px;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 .projects .img {
-    height: 150px;
-    width: 150px;
-    margin: 20px;
-    border: 1px solid black;
-
+    margin: 5%;
 }
 
 .projects {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
-
 }
-
-
 
 footer {
     
