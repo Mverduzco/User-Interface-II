@@ -49,7 +49,31 @@ header {
     font-size: 4em;
 }
 
+.img1 {
+    padding: 2% 2% 2% 20%;
+    
+}
 
+.words {
+    height: 100px;
+    width: 50%;
+    padding-top: 10px;
+    font-size: 2em;
+    align-self: flex-end;
+}
+.name {
+    padding-top: 50px;
+    font-size: 2em;
+    align-self: center;
+}
+
+
+
+.intro {
+    display: flex;
+
+
+}
 
 .projects .img {
     margin: 5%;
