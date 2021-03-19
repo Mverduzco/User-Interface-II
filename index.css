@@ -42,9 +42,47 @@ table {
 	border-spacing: 0;
 }
 
-.header{
+header {
     background-color: gray;
     height: 3em;
     width: auto;
+    font-size: 4em;
+}
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
 
+}
+
+.intro .name .words{
+    font-size: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projects .img {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 1px solid black;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+
+
+
+footer {
+    
+    background-color: gray;
+    height: 3em;
+    width: auto;
+    font-size: 2em;
+    text-align: center;
 }
