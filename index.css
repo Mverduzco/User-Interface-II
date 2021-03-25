@@ -44,20 +44,14 @@ table {
 
 @media only screen and (max-width: 800px) {
 
-    .nav .a{
-        display: flex;
-        flex-direction: column;
-    }
+
+    col
     .intro {
         flex-direction: column;
+    }
  }
 
 
-
-}
-
-
-}
 
 header {
     background-color: gray;
@@ -76,7 +70,11 @@ header {
     margin: 2%;
     padding-bottom: 3%;
     display: flex;
-        
+}
+
+.description {
+    margin: 5%;
+    align-content: center;
 }
 
 .words {
@@ -84,12 +82,10 @@ header {
     width: 50%;
     padding-top: 10px;
     font-size: 2em;
-    align-self: flex-end;
 }
 .name {
     padding-top: 50px;
     font-size: 2em;
-    align-self: center;
 }
 
 .projects {
