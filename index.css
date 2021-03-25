@@ -42,6 +42,10 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    
+}
+
 header {
     background-color: gray;
     height: 3em;
@@ -49,14 +53,12 @@ header {
     font-size: 4em;
 }
 
+
+
 .intro {
     margin: 2%;
     display: flex;
         
-}
-
-.img {
-
 }
 
 .words {
@@ -72,25 +74,19 @@ header {
     align-self: center;
 }
 
-
+.projects {
+    display: flex;
 }
 
 .projects .img {
-    margin: 50%;
-    padding: 50%;
-
-}
-
-.projects {
-    margin: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
 }
 
+
 footer {
-    
     background-color: gray;
     height: 3em;
     width: auto;
