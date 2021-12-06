@@ -42,17 +42,23 @@ table {
 	border-spacing: 0;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
 
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 2%;
 }
 
 .topsection{
-    display: flex;
-    justify-content: center;
-
+	display: flex;
+	justify-content: center;
 }
 .image-button{
-    background-image: url("https://picsum.photos/600/400");
+	background-image: url("https://picsum.photos/600/400");
+	background-size: cover;
+	font-size: large;
+	width: 600px;
+	height: 400px;
+	
 }
